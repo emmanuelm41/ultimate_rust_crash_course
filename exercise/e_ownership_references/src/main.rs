@@ -44,9 +44,9 @@ fn main() {
 
 fn inspect(arg: &String){
     if arg.ends_with("s"){
-        println!("The arg ends with s");
+        println!("{} is plural", arg);
     } else {
-        println!("The arg doesn't end with s");
+        println!("{} is singural", arg);
     }
 }
 
